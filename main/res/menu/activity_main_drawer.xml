@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnuHealthUpdates"
+            android:checked="true"
+            android:title="Health Updates" />
+        <item
+            android:id="@+id/mnuDiseaseas"
+            android:title="Profile" />
+        <item
+            android:id="@+id/mnuDiagnose"
+            android:title="Diagnose" />
+    </group>
+    <item
+        android:id="@+id/infoTab"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Info"
+        app:showAsAction="ifRoom" />
+
+</menu>
